@@ -139,7 +139,14 @@ Extra Styles
     padding-right: 18px;
     padding-bottom: 18px;
 }
-
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    /* margin-left: -15px; */
+  }
 
 /***************
 Portfolio Images
@@ -245,13 +252,26 @@ section{
 }
 
 @media screen and (max-width:640px){
+    h1{
+        position: relative;
+        
+    }    
     nav{
         float: left;
-        
+        position: absolute;
+        margin-top: 6%
+    }
+
+    header div{
+        position: fixed;
+        top: 0% ;
+        height: 15%;
+        background-color: #fff
     }
     section{
         width:70%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 22%
     }
 }
