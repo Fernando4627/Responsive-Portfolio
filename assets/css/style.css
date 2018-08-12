@@ -140,6 +140,7 @@ Extra Styles
     padding-bottom: 18px;
 }
 
+
 /***************
 Portfolio Images
 ****************/
@@ -220,3 +221,37 @@ input[type=submit]:hover {
 /* Thanks Gabe */
 
 /* media quarey */
+@media screen and (max-width:980px){
+nav{
+    float: left
+}
+section{
+    width:70%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+
+@media screen and (max-width:768px){
+    nav{
+        float: left;
+    }
+    section{
+        width:70%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width:640px){
+    nav{
+        float: left;
+        
+    }
+    section{
+        width:70%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
